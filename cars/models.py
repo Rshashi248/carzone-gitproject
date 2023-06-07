@@ -53,7 +53,18 @@ class Car(models.Model):
        ('Cruise Control', 'Cruise Control'),
        ('Audio Interface', 'Audio Interface'),
        ('Airbags', 'Airbags'),
- )   
+       ('Air Conditioning', 'Air Conditioning'),
+       ('Seat Heating', 'Seat Heating'),
+       ('Alarm System', 'Alarm System'),
+       ('ParkAssist', 'ParkAssist'),
+       ('Power Steering', 'Power Steering'),
+       ('Reversing Camera', 'Reversing Camera'),
+       ('Direct Fuel Injection', 'Direct Fuel Injection'),
+       ('Auto Start/Stop', 'Auto Start/Stop'),
+       ('Wind Deflector', 'Wind Deflector'),
+       ('Bluetooth Handset', 'Bluetooth Handset'),
+
+    )
  
     Door_choices = (
         ('2', '2'),
